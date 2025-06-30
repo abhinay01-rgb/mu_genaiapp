@@ -7,7 +7,11 @@ import streamlit as st
 load_dotenv()
 
 
+<<<<<<< HEAD
 st.title("MARWADI UNIVERSITY - Azure OpenAI Streamlit App")
+=======
+st.title("My first Streamlit app with Azure OpenAI")
+>>>>>>> 2b08b7f8035a89e3592abba583bffb9ec00a771f
 st.write("This is a simple app to interact with Azure OpenAI using Streamlit.")
 
 llm = AzureChatOpenAI(
